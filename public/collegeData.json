@@ -2,7 +2,7 @@
     {
       "id": "howgf461nohsfd",
       "collegeName": "ABC College",
-      "collegeImage": "abc_college.jpg",
+      "collegeImage": "https://media.istockphoto.com/id/1412045855/photo/campo-santi-giovanni-e-paolo.jpg?s=2048x2048&w=is&k=20&c=lb0aSaejx_iz9Y_n6hQ4UdKOTuxBWolOMc09x4CGBtY=",
       "admissionDates": "2023-08-15",
       "events": ["Orientation Day", "Annual Fest", "Sports Meet"],
       "researchHistory": "Founded in 1920",
@@ -13,7 +13,7 @@
     {
       "id": "usbfh5823klsfs",
       "collegeName": "XYZ University",
-      "collegeImage": "xyz_university.jpg",
+      "collegeImage": "https://media.istockphoto.com/id/1391803087/photo/old-brick-building-of-the-church-of-our-lady-of-the-rosary-in-asmara.jpg?s=2048x2048&w=is&k=20&c=wxymagUHJ0MLRz7FkQONQX6poKTrqu1owT-lvrKG164=",
       "admissionDates": "2023-09-01",
       "events": ["Freshers' Party", "Cultural Night", "Tech Symposium"],
       "researchHistory": "Pioneering research in AI",
@@ -24,7 +24,7 @@
     {
       "id": "plkdf93jklssdf",
       "collegeName": "LMN Institute",
-      "collegeImage": "lmn_institute.jpg",
+      "collegeImage": "https://media.istockphoto.com/id/827757976/photo/nijmegen-city-netherlands.jpg?s=2048x2048&w=is&k=20&c=ggBfVC9BIy6Qc0w-imK9wPbNJcAKrUOfhSZ-wQKb8RY=",
       "admissionDates": "2023-07-20",
       "events": ["Science Expo", "Alumni Reunion", "Literary Festival"],
       "researchHistory": "Nobel Prize-winning faculty",
@@ -35,7 +35,7 @@
     {
       "id": "jkdfg65jklsgdf",
       "collegeName": "UVW School",
-      "collegeImage": "uvw_school.jpg",
+      "collegeImage": "https://media.istockphoto.com/id/1454710325/photo/holy-trinity-church-in-krakow-poland.jpg?s=2048x2048&w=is&k=20&c=LyZAw7-MJh6U3VyHPv2SidIuiHd8r4OZkTZbei1TQf0=",
       "admissionDates": "2023-08-10",
       "events": ["College Day", "Tech Hackathon", "Health Fair"],
       "researchHistory": "Leading medical research",
@@ -75,7 +75,7 @@
     {
       "id": "jklsh64jklsgdf",
       "collegeName": "LMN College",
-      "collegeImage": "lmn_college.jpg",
+      "collegeImage": "https://media.istockphoto.com/id/1094414574/photo/toulouse-cathedral-france.jpg?s=2048x2048&w=is&k=20&c=IyP4S8EuRZnEVNq-jzrmFr0KOQU5CaxqjAXCzcZKudA=",
       "admissionDates": "2023-08-25",
       "events": ["Annual Day", "Technical Symposium", "Literary Meet"],
       "researchHistory": "Excellence in arts and humanities",
@@ -86,7 +86,7 @@
     {
       "id": "oiuew52klsgdf",
       "collegeName": "RST Institute",
-      "collegeImage": "rst_institute.jpg",
+      "collegeImage": "https://media.istockphoto.com/id/1029307310/photo/former-town-hall-in-chojna-poland.jpg?s=2048x2048&w=is&k=20&c=HKB_zudGg6E2QDL0pmi0ZpnOEE7AgU3HSF3uz-5bBmg=",
       "admissionDates": "2023-07-30",
       "events": ["College Fest", "Robotics Expo", "Alumni Meet"],
       "researchHistory": "Cutting-edge robotics research",
@@ -97,7 +97,7 @@
     {
       "id": "ojkfd45klsgdf",
       "collegeName": "IJK School",
-      "collegeImage": "ijk_school.jpg",
+      "collegeImage": "https://media.istockphoto.com/id/858406436/photo/imperial-cathedral-cathedral-in-speyer.jpg?s=2048x2048&w=is&k=20&c=TZfTwgeyomE5SnYzQp7MRp3noRjkUAs5eqEKR-YO_mI=",
       "admissionDates": "2023-08-05",
       "events": ["Freshers' Welcome", "Sports Carnival", "Tech Showcase"],
       "researchHistory": "Innovative tech programs",
@@ -138,7 +138,7 @@
       {
         "id": "lpokj99klsgdf",
         "collegeName": "JKL Institute",
-        "collegeImage": "jkl_institute.jpg",
+        "collegeImage": "https://media.istockphoto.com/id/669652472/photo/cathedral-of-st-barbara-vitebsk-belarus.jpg?s=2048x2048&w=is&k=20&c=SQBtwpwk8XlIcvYAOz4I5ndw6oKU5KnjZH_v2pdU-7Y=",
         "admissionDates": "2023-08-20",
         "events": ["Orientation Week", "Science Fair", "Alumni Reunion"],
         "researchHistory": "Leading research in environmental sciences",
@@ -149,7 +149,7 @@
       {
         "id": "tyuhg47klsfdd",
         "collegeName": "MNO College",
-        "collegeImage": "mno_college.jpg",
+        "collegeImage": "https://media.istockphoto.com/id/176829826/photo/mainz-germany-cathedral-dom.jpg?s=2048x2048&w=is&k=20&c=mxCqKGH9OKGVioDhqGQURnxWOuLNcZJTD5G5L_CTJog=",
         "admissionDates": "2023-07-25",
         "events": ["Annual Fest", "Literary Meet", "Health and Wellness Expo"],
         "researchHistory": "Distinguished arts and literature programs",

@@ -5,7 +5,7 @@ const Navbar = () => {
     const navOptions = <>
 
         <li><Link>Home</Link></li>
-        <li><Link>Colleges</Link></li>
+        <li><Link to={'/allcolleges'}>Colleges</Link></li>
         <li><Link>Admission</Link></li>
         <li><Link>My College</Link></li>
     </>
