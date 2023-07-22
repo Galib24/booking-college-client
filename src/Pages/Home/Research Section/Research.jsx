@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Research = () => {
     const [allPaper] = useResearch();
-    console.log(allPaper);
+    // console.log(allPaper);
     return (
         <>
             <h1 className='text-center font-bold text-4xl my-12'>The Research Paper Section</h1>
