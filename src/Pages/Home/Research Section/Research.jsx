@@ -1,5 +1,6 @@
 import React from 'react';
 import useResearch from '../../../hooks/useResearch';
+import { Link } from 'react-router-dom';
 
 const Research = () => {
     const [allPaper] = useResearch();
@@ -31,7 +32,7 @@ const Research = () => {
                             <td>{paper.title}</td>
                             <td>{paper.author}</td>
                             <td>{paper.year}</td>
-                            <td>{paper.url}</td>
+                            <td><Link to={paper.url}>Link</Link> </td>
                           </tr>
                        )
                         }
