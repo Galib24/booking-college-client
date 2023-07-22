@@ -1,0 +1,124 @@
+[
+    {
+      "id": "howgf461nohsfd",
+      "collegeName": "ABC College",
+      "collegeImage": "abc_college.jpg",
+      "admissionDates": "2023-08-15",
+      "events": ["Orientation Day", "Annual Fest", "Sports Meet"],
+      "researchHistory": "Founded in 1920",
+      "ranking": 3.2,
+      "sports": ["Football", "Basketball", "Cricket"]
+    },
+    {
+      "id": "usbfh5823klsfs",
+      "collegeName": "XYZ University",
+      "collegeImage": "xyz_university.jpg",
+      "admissionDates": "2023-09-01",
+      "events": ["Freshers' Party", "Cultural Night", "Tech Symposium"],
+      "researchHistory": "Pioneering research in AI",
+      "ranking": 4.2,
+      "sports": ["Tennis", "Swimming", "Athletics"]
+    },
+    {
+      "id": "plkdf93jklssdf",
+      "collegeName": "LMN Institute",
+      "collegeImage": "lmn_institute.jpg",
+      "admissionDates": "2023-07-20",
+      "events": ["Science Expo", "Alumni Reunion", "Literary Festival"],
+      "researchHistory": "Nobel Prize-winning faculty",
+      "ranking": 4.5,
+      "sports": ["Volleyball", "Badminton", "Table Tennis"]
+    },
+    {
+      "id": "jkdfg65jklsgdf",
+      "collegeName": "UVW School",
+      "collegeImage": "uvw_school.jpg",
+      "admissionDates": "2023-08-10",
+      "events": ["College Day", "Tech Hackathon", "Health Fair"],
+      "researchHistory": "Leading medical research",
+      "ranking": 4.8,
+      "sports": ["Soccer", "Hockey", "Swimming"]
+    },
+    {
+      "id": "klsfd40jklsgdf",
+      "collegeName": "PQR University",
+      "collegeImage": "https://media.istockphoto.com/id/900391602/photo/paris-the-sorbonne-university.jpg?s=2048x2048&w=is&k=20&c=jkg50y-8ynX79MfPc990VSLFyW9zleJQjcLiwTdT0X0=",
+      "admissionDates": "2023-09-15",
+      "events": ["Orientation Program", "Cultural Fest", "Science Fair"],
+      "researchHistory": "Renowned engineering programs",
+      "ranking": 5,
+      "sports": ["Basketball", "Tennis", "Cricket"]
+    },
+    {
+      "id": "jklsh64jklsgdf",
+      "collegeName": "LMN College",
+      "collegeImage": "lmn_college.jpg",
+      "admissionDates": "2023-08-25",
+      "events": ["Annual Day", "Technical Symposium", "Literary Meet"],
+      "researchHistory": "Excellence in arts and humanities",
+      "ranking": 2.6,
+      "sports": ["Table Tennis", "Volleyball", "Badminton"]
+    },
+    {
+      "id": "oiuew52klsgdf",
+      "collegeName": "RST Institute",
+      "collegeImage": "rst_institute.jpg",
+      "admissionDates": "2023-07-30",
+      "events": ["College Fest", "Robotics Expo", "Alumni Meet"],
+      "researchHistory": "Cutting-edge robotics research",
+      "ranking": 3.5,
+      "sports": ["Football", "Swimming", "Hockey"]
+    },
+    {
+      "id": "ojkfd45klsgdf",
+      "collegeName": "IJK School",
+      "collegeImage": "ijk_school.jpg",
+      "admissionDates": "2023-08-05",
+      "events": ["Freshers' Welcome", "Sports Carnival", "Tech Showcase"],
+      "researchHistory": "Innovative tech programs",
+      "ranking": 4.4,
+      "sports": ["Cricket", "Tennis", "Basketball"]
+    },
+    {
+        "id": "uihgt60klsfdk",
+        "collegeName": "EFG University",
+        "collegeImage": "https://media.istockphoto.com/id/1134069136/photo/saints-john-and-paul-venice.jpg?s=2048x2048&w=is&k=20&c=cdCtv_U7Gj4ceH506RhQDttx3qD929JH_VCqujExqGM=",
+        "admissionDates": "2023-09-05",
+        "events": ["Freshers' Welcome", "Tech Expo", "Cultural Extravaganza"],
+        "researchHistory": "Prestigious computer science programs",
+        "ranking": 5,
+        "sports": ["Soccer", "Swimming", "Basketball"]
+      },
+      {
+        "id": "lpokj99klsgdf",
+        "collegeName": "JKL Institute",
+        "collegeImage": "jkl_institute.jpg",
+        "admissionDates": "2023-08-20",
+        "events": ["Orientation Week", "Science Fair", "Alumni Reunion"],
+        "researchHistory": "Leading research in environmental sciences",
+        "ranking": 4.8,
+        "sports": ["Cricket", "Volleyball", "Badminton"]
+      },
+      {
+        "id": "tyuhg47klsfdd",
+        "collegeName": "MNO College",
+        "collegeImage": "mno_college.jpg",
+        "admissionDates": "2023-07-25",
+        "events": ["Annual Fest", "Literary Meet", "Health and Wellness Expo"],
+        "researchHistory": "Distinguished arts and literature programs",
+        "ranking": 2,
+        "sports": ["Table Tennis", "Hockey", "Athletics"]
+
+      },
+      {
+        "id": "qazws21klsgdf",
+        "collegeName": "STU School",
+        "collegeImage": "https://media.istockphoto.com/id/155305919/photo/santa-maria-delle-grazie-milan.jpg?s=2048x2048&w=is&k=20&c=GTB5uUdEqy0vR7A3C9N3eRAON1nf4TiVu4Y23P_1o7o=",
+        "admissionDates": "2023-09-10",
+        "events": ["Freshers' Carnival", "Robotics Competition", "Tech Symposium"],
+        "researchHistory": "Cutting-edge robotics and engineering research",
+        "ranking": 5,
+        "sports": ["Basketball", "Tennis", "Football"]
+      }
+  ]
+  
