@@ -1,7 +1,9 @@
 import React from 'react';
 import './FirstSectionCard.css'
+import { useNavigate } from 'react-router-dom';
 
 const FirstSectionCard = ({ item }) => {
+    const navigate = useNavigate();
     const { id, collegeName, admissionDates, collegeImage, events, researchHistory, sports } = item;
 
     return (
@@ -27,7 +29,7 @@ const FirstSectionCard = ({ item }) => {
                     </span>
                 </div>
                 <div className="card-actions justify-end mt-5">
-                    <button className="btn btn-primary text-white">View Details</button>
+                    <button onClick={()=>navigate(`viewDetails/${id}`) } className="btn btn-primary text-white">View Details</button>
                 </div>
             </div>
         </div>

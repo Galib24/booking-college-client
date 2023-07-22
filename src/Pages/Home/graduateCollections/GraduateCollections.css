@@ -1,0 +1,5 @@
+.div img:hover{
+    transition:  ease-in all  8s;
+    transform:  rotate(1080deg);
+    
+}

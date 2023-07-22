@@ -7,7 +7,8 @@
       "events": ["Orientation Day", "Annual Fest", "Sports Meet"],
       "researchHistory": "Founded in 1920",
       "ranking": 3.2,
-      "sports": ["Football", "Basketball", "Cricket"]
+      "sports": ["Football", "Basketball", "Cricket"],
+      "admissionProcess": "To apply for admission to ABC College, aspiring students must first fill out the online application form on the college's official website. After submitting the application, candidates will be shortlisted based on their academic records and achievements. Shortlisted students will be invited to attend an interview with the admission committee to evaluate their potential and suitability for the courses offered. The interview will assess the student's passion for learning, extracurricular activities, and future goals. Upon successful completion of the interview, final admissions will be confirmed, and students can proceed with the enrollment process. ABC College strives to provide a diverse and inclusive learning environment for all its students."
     },
     {
       "id": "usbfh5823klsfs",
@@ -17,7 +18,8 @@
       "events": ["Freshers' Party", "Cultural Night", "Tech Symposium"],
       "researchHistory": "Pioneering research in AI",
       "ranking": 4.2,
-      "sports": ["Tennis", "Swimming", "Athletics"]
+      "sports": ["Tennis", "Swimming", "Athletics"],
+      "admissionProcess": "To apply for admission to ABC College, aspiring students must first fill out the online application form on the college's official website. After submitting the application, candidates will be shortlisted based on their academic records and achievements. Shortlisted students will be invited to attend an interview with the admission committee to evaluate their potential and suitability for the courses offered. The interview will assess the student's passion for learning, extracurricular activities, and future goals. Upon successful completion of the interview, final admissions will be confirmed, and students can proceed with the enrollment process. ABC College strives to provide a diverse and inclusive learning environment for all its students."
     },
     {
       "id": "plkdf93jklssdf",
@@ -27,7 +29,8 @@
       "events": ["Science Expo", "Alumni Reunion", "Literary Festival"],
       "researchHistory": "Nobel Prize-winning faculty",
       "ranking": 4.5,
-      "sports": ["Volleyball", "Badminton", "Table Tennis"]
+      "sports": ["Volleyball", "Badminton", "Table Tennis"],
+      "admissionProcess": "To apply for admission to ABC College, aspiring students must first fill out the online application form on the college's official website. After submitting the application, candidates will be shortlisted based on their academic records and achievements. Shortlisted students will be invited to attend an interview with the admission committee to evaluate their potential and suitability for the courses offered. The interview will assess the student's passion for learning, extracurricular activities, and future goals. Upon successful completion of the interview, final admissions will be confirmed, and students can proceed with the enrollment process. ABC College strives to provide a diverse and inclusive learning environment for all its students."
     },
     {
       "id": "jkdfg65jklsgdf",
@@ -37,7 +40,8 @@
       "events": ["College Day", "Tech Hackathon", "Health Fair"],
       "researchHistory": "Leading medical research",
       "ranking": 4.8,
-      "sports": ["Soccer", "Hockey", "Swimming"]
+      "sports": ["Soccer", "Hockey", "Swimming"],
+      "admissionProcess": "To apply for admission to ABC College, aspiring students must first fill out the online application form on the college's official website. After submitting the application, candidates will be shortlisted based on their academic records and achievements. Shortlisted students will be invited to attend an interview with the admission committee to evaluate their potential and suitability for the courses offered. The interview will assess the student's passion for learning, extracurricular activities, and future goals. Upon successful completion of the interview, final admissions will be confirmed, and students can proceed with the enrollment process. ABC College strives to provide a diverse and inclusive learning environment for all its students."
     },
     {
       "id": "klsfd40jklsgdf",
@@ -47,7 +51,26 @@
       "events": ["Orientation Program", "Cultural Fest", "Science Fair"],
       "researchHistory": "Renowned engineering programs",
       "ranking": 5,
-      "sports": ["Basketball", "Tennis", "Cricket"]
+      "sports": ["Basketball", "Tennis", "Cricket"],
+      "admissionProcess": "Admission to XYZ University involves a multi-step process. Prospective students must start by filling out the online application form on the university's website. After the submission, candidates will be required to appear for an entrance examination, which evaluates their aptitude and knowledge in relevant subjects. Shortlisted students will be called for a counseling session, where they can explore various academic programs and career opportunities. The university emphasizes holistic development, and extracurricular achievements are also considered during the selection process. Once the counseling is complete, final admissions will be confirmed, and students can enroll in their chosen courses.",
+      
+          "eventsTime1": "The Orientation Program at ABC College is a comprehensive introduction for new students. It includes informative sessions on college facilities, academic courses, and campus life. The program also allows students to interact with faculty and seniors to address any queries or concerns they may have.",
+        
+      
+          
+          "eventsTime2": "The Cultural Fest is a vibrant event that showcases the diversity and talent of students at ABC College. It features captivating performances, art exhibitions, and various cultural activities. The fest fosters a sense of unity and inclusivity among students from different backgrounds.",
+        
+        
+        
+          "eventsTime3": "The Science Fair at ABC College is an exciting platform for students to present innovative projects and scientific experiments. It encourages critical thinking and creativity, as students showcase their passion for science and technology. The fair also provides an opportunity for students to learn from each other's discoveries.",
+        
+      
+      "researchWorks": "The research work focuses on exploring innovative technologies in renewable energy sources like solar, wind, and hydroelectric power. The aim is to develop sustainable and eco-friendly energy solutions for a greener future.",
+
+      "SportsCategory1:": "Basketball holds a prominent place in the sports culture at ABC College. The college's basketball team, known as the ,has a rich history of competing in regional and national tournaments. With state-of-the-art indoor facilities and dedicated coaching staff, the basketball program at ABC College nurtures talent and fosters teamwork. ",
+      "SportsCategory2:": "ABC College boasts a strong tradition of tennis excellence, evident in its well-maintained tennis courts and a thriving tennis club. The college encourages students to take up tennis as both a recreational activity and a competitive sport. The college's tennis team, the  participates in intercollegiate tournaments and has earned accolades for their skill and sportsmanship. Tennis enthusiasts at ABC College enjoy regular training sessions, friendly matches, and tournaments, fostering a close-knit community of players",
+      "SportsCategory3": "Cricket enjoys a cherished legacy at ABC College, where it is celebrated as a symbol of unity and camaraderie among students. The college's cricket team, known as the  has a proud history of success in intercollegiate cricket tournaments. The college has dedicated cricket grounds and practice nets, providing students with ample opportunities to develop their cricketing skills. ABC College's cricket matches draw enthusiastic crowds, creating a vibrant atmosphere of support and cheers. "
+
     },
     {
       "id": "jklsh64jklsgdf",
@@ -57,7 +80,8 @@
       "events": ["Annual Day", "Technical Symposium", "Literary Meet"],
       "researchHistory": "Excellence in arts and humanities",
       "ranking": 2.6,
-      "sports": ["Table Tennis", "Volleyball", "Badminton"]
+      "sports": ["Table Tennis", "Volleyball", "Badminton"],
+      "admissionProcess": "To apply for admission to ABC College, aspiring students must first fill out the online application form on the college's official website. After submitting the application, candidates will be shortlisted based on their academic records and achievements. Shortlisted students will be invited to attend an interview with the admission committee to evaluate their potential and suitability for the courses offered. The interview will assess the student's passion for learning, extracurricular activities, and future goals. Upon successful completion of the interview, final admissions will be confirmed, and students can proceed with the enrollment process. ABC College strives to provide a diverse and inclusive learning environment for all its students."
     },
     {
       "id": "oiuew52klsgdf",
@@ -67,7 +91,8 @@
       "events": ["College Fest", "Robotics Expo", "Alumni Meet"],
       "researchHistory": "Cutting-edge robotics research",
       "ranking": 3.5,
-      "sports": ["Football", "Swimming", "Hockey"]
+      "sports": ["Football", "Swimming", "Hockey"],
+      "admissionProcess": "To apply for admission to ABC College, aspiring students must first fill out the online application form on the college's official website. After submitting the application, candidates will be shortlisted based on their academic records and achievements. Shortlisted students will be invited to attend an interview with the admission committee to evaluate their potential and suitability for the courses offered. The interview will assess the student's passion for learning, extracurricular activities, and future goals. Upon successful completion of the interview, final admissions will be confirmed, and students can proceed with the enrollment process. ABC College strives to provide a diverse and inclusive learning environment for all its students."
     },
     {
       "id": "ojkfd45klsgdf",
@@ -77,7 +102,8 @@
       "events": ["Freshers' Welcome", "Sports Carnival", "Tech Showcase"],
       "researchHistory": "Innovative tech programs",
       "ranking": 4.4,
-      "sports": ["Cricket", "Tennis", "Basketball"]
+      "sports": ["Cricket", "Tennis", "Basketball"],
+      "admissionProcess": "To apply for admission to ABC College, aspiring students must first fill out the online application form on the college's official website. After submitting the application, candidates will be shortlisted based on their academic records and achievements. Shortlisted students will be invited to attend an interview with the admission committee to evaluate their potential and suitability for the courses offered. The interview will assess the student's passion for learning, extracurricular activities, and future goals. Upon successful completion of the interview, final admissions will be confirmed, and students can proceed with the enrollment process. ABC College strives to provide a diverse and inclusive learning environment for all its students."
     },
     {
         "id": "uihgt60klsfdk",
@@ -87,7 +113,27 @@
         "events": ["Freshers' Welcome", "Tech Expo", "Cultural Extravaganza"],
         "researchHistory": "Prestigious computer science programs",
         "ranking": 5,
-        "sports": ["Soccer", "Swimming", "Basketball"]
+        "sports": ["Soccer", "Swimming", "Basketball"],
+        "admissionProcess": "LMN Institute follows a meticulous admission procedure to select the most deserving candidates. Aspiring students must complete the online application form, providing comprehensive information about their academic achievements and extracurricular activities. Shortlisted candidates will be invited for a written entrance examination and a personal interview with the faculty members. The institute values creativity, critical thinking, and a passion for knowledge. After the interview, final selections will be made based on the candidate's overall performance and potential. Admitted students will receive detailed information regarding the enrollment process, course structure, and orientation program to ensure a seamless transition to life at LMN Institute.",
+        "eventsTime1": 
+        
+            
+            "The Orientation Program at ABC College is a comprehensive introduction for new students. It includes informative sessions on college facilities, academic courses, and campus life. The program also allows students to interact with faculty and seniors to address any queries or concerns they may have.",
+        
+
+        "eventsTime2": 
+          "The Cultural Fest is a vibrant event that showcases the diversity and talent of students at ABC College. It features captivating performances, art exhibitions, and various cultural activities. The fest fosters a sense of unity and inclusivity among students from different backgrounds.",
+
+          "eventsTime3": 
+          "The Science Fair at ABC College is an exciting platform for students to present innovative projects and scientific experiments. It encourages critical thinking and creativity, as students showcase their passion for science and technology. The fair also provides an opportunity for students to learn from each other's discoveries.",
+        
+        "researchWorks": "The research work focuses on exploring innovative technologies in renewable energy sources like solar, wind, and hydroelectric power. The aim is to develop sustainable and eco-friendly energy solutions for a greener future.",
+
+        "SportsCategory1": "Soccer, known as  holds a significant place in the vibrant sports culture at ABC College. The college's soccer team, the  embodies the spirit of passion and competitiveness on the field. With state-of-the-art soccer fields and experienced coaches, ABC College nurtures exceptional soccer talent and encourages teamwork among players. ",
+
+        "SportsCategory2": "Swimming is an integral part of the aquatics program at ABC College, promoting a healthy and active lifestyle among students. The college boasts a modern swimming pool facility, where students can hone their swimming abilities under the guidance of certified instructors. Whether for competitive swimming or recreational purposes,",
+
+        "SportsCategory3": "Basketball remains a cornerstone of the sports legacy at ABC College, cherished by both players and fans alike. The college's basketball program stands out for its commitment to excellence, with the  representing the institution in intercollegiate competitions. The college's indoor courts witness intense matches that showcase the students' skills and passion for the game. "
       },
       {
         "id": "lpokj99klsgdf",
@@ -97,7 +143,8 @@
         "events": ["Orientation Week", "Science Fair", "Alumni Reunion"],
         "researchHistory": "Leading research in environmental sciences",
         "ranking": 4.8,
-        "sports": ["Cricket", "Volleyball", "Badminton"]
+        "sports": ["Cricket", "Volleyball", "Badminton"],
+        "admissionProcess": "To apply for admission to ABC College, aspiring students must first fill out the online application form on the college's official website. After submitting the application, candidates will be shortlisted based on their academic records and achievements. Shortlisted students will be invited to attend an interview with the admission committee to evaluate their potential and suitability for the courses offered. The interview will assess the student's passion for learning, extracurricular activities, and future goals. Upon successful completion of the interview, final admissions will be confirmed, and students can proceed with the enrollment process. ABC College strives to provide a diverse and inclusive learning environment for all its students."
       },
       {
         "id": "tyuhg47klsfdd",
@@ -107,7 +154,8 @@
         "events": ["Annual Fest", "Literary Meet", "Health and Wellness Expo"],
         "researchHistory": "Distinguished arts and literature programs",
         "ranking": 2,
-        "sports": ["Table Tennis", "Hockey", "Athletics"]
+        "sports": ["Table Tennis", "Hockey", "Athletics"],
+        "admissionProcess": "To apply for admission to ABC College, aspiring students must first fill out the online application form on the college's official website. After submitting the application, candidates will be shortlisted based on their academic records and achievements. Shortlisted students will be invited to attend an interview with the admission committee to evaluate their potential and suitability for the courses offered. The interview will assess the student's passion for learning, extracurricular activities, and future goals. Upon successful completion of the interview, final admissions will be confirmed, and students can proceed with the enrollment process. ABC College strives to provide a diverse and inclusive learning environment for all its students."
 
       },
       {
@@ -118,7 +166,29 @@
         "events": ["Freshers' Carnival", "Robotics Competition", "Tech Symposium"],
         "researchHistory": "Cutting-edge robotics and engineering research",
         "ranking": 5,
-        "sports": ["Basketball", "Tennis", "Football"]
+        "sports": ["Basketball", "Tennis", "Football"],
+        "admissionProcess": "At PQR University, the admission process is designed to identify talented and motivated individuals who can thrive in a dynamic learning environment. Students can begin by completing the online application form, which includes a statement of purpose. Shortlisted candidates will participate in an aptitude test, followed by a group discussion to assess their communication and teamwork skills. Qualified students will then be called for a personal interview with the admission committee. The university values diversity and encourages students from various backgrounds to apply. After successful interviews, final admission decisions will be communicated, and students can embark on a transformative educational journey at PQR University.",
+       
+            
+            "eventsTime1": "The Orientation Program at ABC College is a comprehensive introduction for new students. It includes informative sessions on college facilities, academic courses, and campus life. The program also allows students to interact with faculty and seniors to address any queries or concerns they may have.",
+          
+          
+            
+            "eventsTime2": "The Cultural Fest is a vibrant event that showcases the diversity and talent of students at ABC College. It features captivating performances, art exhibitions, and various cultural activities. The fest fosters a sense of unity and inclusivity among students from different backgrounds.",
+          
+        
+          
+            "eventsTime3": "The Science Fair at ABC College is an exciting platform for students to present innovative projects and scientific experiments. It encourages critical thinking and creativity, as students showcase their passion for science and technology. The fair also provides an opportunity for students to learn from each other's discoveries.",
+          
+        
+        "researchWorks": "The research work focuses on exploring innovative technologies in renewable energy sources like solar, wind, and hydroelectric power. The aim is to develop sustainable and eco-friendly energy solutions for a greener future.",
+
+        "SportsCategory1": "Basketball holds a prominent place at ABC College, with the  representing the college in regional and national tournaments. State-of-the-art facilities and dedicated coaching nurture talent and teamwork, fostering a vibrant sporting atmosphere.",
+
+        "SportsCategory2": "ABC College encourages tennis as both a recreational activity and a competitive sport. The participate in intercollegiate tournaments, earning accolades for skill and sportsmanship. Regular training and friendly matches create a close-knit community of players.",
+
+        "SportsCategory3": "Football is a cherished tradition at ABC College, with the excelling in intercollegiate championships. Modern facilities and passionate coaching instill values of teamwork and dedication in players, creating a thrilling atmosphere on the field."
+
       }
   ]
   
