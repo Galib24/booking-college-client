@@ -5,9 +5,9 @@ import FirstSectionCard from '../../First section Card/FirstSectionCard';
 
 const TopCollege = () => {
     const [allData] = useData();
-    console.log(allData);
+    // console.log(allData);
     const topData = allData?.filter(item => item.ranking >= 5);
-    console.log(topData);
+    // console.log(topData);
 
     // const [top, setTop] = useState();
     // useEffect(() => {
