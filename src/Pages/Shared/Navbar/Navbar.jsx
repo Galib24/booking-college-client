@@ -7,7 +7,7 @@ const Navbar = () => {
         <li><Link>Home</Link></li>
         <li><Link to={'/allcolleges'}>Colleges</Link></li>
         <li><Link to={'/admission'}>Admission</Link></li>
-        <li><Link>My College</Link></li>
+        <li><Link to={'/mycollege'}>My College</Link></li>
     </>
     return (
         <>

@@ -1,4 +1,5 @@
 import React from 'react';
+import Swal from 'sweetalert2';
 
 
 const SubmitForm = () => {
@@ -31,6 +32,15 @@ const SubmitForm = () => {
         })
         .then(res => res.json())
         .then(data => {
+            if(data.insertedId){
+                Swal.fire({
+                    position: 'top-end',
+                    icon: 'success',
+                    title: 'Request Submit successfully',
+                    showConfirmButton: false,
+                    timer: 1500
+                })
+            }
             console.log(data);
         })
 
@@ -106,7 +116,7 @@ const SubmitForm = () => {
                 <div className="mb-8">
                     <div className="form-control  w-full">
                         <label className="label">
-                            <span className="label-text">College Name</span>
+                            <span className="label-text">Selected College Name</span>
                         </label>
                         <label className="input-group">
 

@@ -20,6 +20,7 @@
     "react-router-dom": "^6.14.2",
     "react-swipe": "^6.0.4",
     "sort-by": "^1.2.0",
+    "sweetalert2": "^11.7.19",
     "swipe-js-iso": "^2.1.5",
     "swiper": "^10.0.4"
   },

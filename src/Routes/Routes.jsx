@@ -8,6 +8,7 @@ import AllColleges from "../Pages/Home/AllColleges/AllColleges";
 import ViewDetailsMore from "../Pages/View Details/ViewDetailsMore";
 import Admission from "../Pages/Admission Page/Admission";
 import SubmitForm from "../Pages/Submit Form/SubmitForm";
+import MyCollege from "../Pages/Home/My College/MyCollege";
 
 
   export const router = createBrowserRouter([
@@ -33,6 +34,10 @@ import SubmitForm from "../Pages/Submit Form/SubmitForm";
           path: 'allcolleges',
           element: <AllColleges></AllColleges>,
         },
+        {
+          path: 'mycollege',
+          element: <MyCollege></MyCollege>
+        }
        
       ]
     },
