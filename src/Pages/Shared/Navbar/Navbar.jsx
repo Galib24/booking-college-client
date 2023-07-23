@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+
 const Navbar = () => {
     const navOptions = <>
 
@@ -8,6 +9,7 @@ const Navbar = () => {
         <li><Link to={'/allcolleges'}>Colleges</Link></li>
         <li><Link to={'/admission'}>Admission</Link></li>
         <li><Link to={'/mycollege'}>My College</Link></li>
+        <li><Link to={'/login'}>Login</Link></li>
     </>
     return (
         <>
@@ -41,6 +43,7 @@ const Navbar = () => {
                         </button>
                     </div>
                 </div>
+
             </div>
 
         </>
