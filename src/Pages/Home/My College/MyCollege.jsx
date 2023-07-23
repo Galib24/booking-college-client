@@ -1,5 +1,6 @@
 import React from 'react';
 import useInfo from '../../../hooks/useInfo';
+import { Link } from 'react-router-dom';
 
 const MyCollege = () => {
     const [userInfo] = useInfo();
@@ -21,6 +22,7 @@ const MyCollege = () => {
                             <th>Name</th>
                             <th>Selected College Name</th>
                             <th>Email</th>
+                            <th>Review part</th>
                             <th>College Details</th>
                         </tr>
                     </thead>
@@ -42,6 +44,7 @@ const MyCollege = () => {
                                 <td>{user.name}</td>
                                 <td>{user.CollegeName}</td>
                                 <td>{user.email}</td>
+                                <td><Link to={`/morereviews/${user._id}`}>Review</Link > </td>
                                 <td><button>Details</button> </td>
                             </tr>
                             )

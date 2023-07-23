@@ -1,9 +1,10 @@
 import React, { useContext, useState } from 'react';
 import { FaCheckSquare } from 'react-icons/fa';
 import loginImg from '../../../src/assets/login_anime_up.png'
-import { Link } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../providers/AuthProvider';
 import Swal from 'sweetalert2';
+import SocialLogin from '../Shared/SocialLogin/SocialLogin';
 
 const Login = () => {
     const [show, setShow] = useState(false);
@@ -12,7 +13,14 @@ const Login = () => {
     // login function
 
     // signIn 
-    const { signIn } = useContext(AuthContext)
+    const { signIn } = useContext(AuthContext);
+
+    const navigate = useNavigate();
+    const location = useLocation();
+
+    const from = location.state?.from?.pathname || '/';
+
+
     const handleLogin = e => {
         e.preventDefault();
         const form = e.target;
@@ -29,7 +37,8 @@ const Login = () => {
                     title: 'Request Submit successfully',
                     showConfirmButton: false,
                     timer: 1500
-                })
+                });
+                navigate(from, { replace: true });
             })
     }
     return (
@@ -39,7 +48,7 @@ const Login = () => {
                     <div className="">
                         <img style={{ borderRadius: '400px 400px 0 0' }} className='w-1/2 rounded-2xl' src={loginImg} alt="" />
                     </div>
-                    <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+                    <div className="card mt-20 flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
                         <form onSubmit={handleLogin} className="card-body">
                             <h1 className="text-3xl text-center font-extrabold">Login Now!</h1>
                             <div className="form-control">
@@ -69,7 +78,7 @@ const Login = () => {
                             </div>
                         </form>
                         <p className='text-center mb-5'><small>New Here? Create an account Click  <Link to={'/signup'}>here!</Link></small></p>
-                        {/* <SocialLogin></SocialLogin> */}
+                        <SocialLogin></SocialLogin>
                     </div>
                 </div>
             </div>

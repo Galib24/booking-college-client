@@ -19,6 +19,8 @@ const Navbar = () => {
         <li><Link to={'/mycollege'}>My College</Link></li>
         {
             user ? <>
+                <li><Link><img style={{ width: '70px', borderRadius: '50px 50px 50px 50px' }} src={user?.photoURL} alt="" /></Link></li>
+                <li className=''><Link>{user?.displayName}</Link></li>
                 <li onClick={handleLogOut} ><Link>LogOut</Link></li>
             </> : <>
                 <li><Link to={'/login'}>Login</Link></li>
