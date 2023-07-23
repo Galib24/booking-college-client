@@ -1,8 +1,10 @@
 import React from 'react';
 import Swal from 'sweetalert2';
+import useUser from '../../hooks/useUser';
 
 
 const SubmitForm = () => {
+    const [, refetch] = useUser();
     const handleSubmit = e => {
       
         
@@ -33,6 +35,7 @@ const SubmitForm = () => {
         .then(res => res.json())
         .then(data => {
             if(data.insertedId){
+                refetch();
                 Swal.fire({
                     position: 'top-end',
                     icon: 'success',

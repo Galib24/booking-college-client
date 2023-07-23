@@ -1,10 +1,13 @@
 import React from 'react';
-import useInfo from '../../../hooks/useInfo';
+// import useInfo from '../../../hooks/useInfo';
 import { Link } from 'react-router-dom';
+import useUser from '../../../hooks/useUser';
 
 const MyCollege = () => {
-    const [userInfo] = useInfo();
-    console.log(userInfo);
+    // const [userInfo] = useInfo();
+    const [info] =useUser();
+    console.log(info?.length);
+    // console.log(userInfo);
     return (
         <>
 
@@ -20,6 +23,9 @@ const MyCollege = () => {
                             <th>No</th>
                             <th>Photo</th>
                             <th>Name</th>
+                            <th>Birth Date</th>
+                            <th>Address</th>
+                            <th>Phone No</th>
                             <th>Selected College Name</th>
                             <th>Email</th>
                             <th>Review part</th>
@@ -28,7 +34,7 @@ const MyCollege = () => {
                     </thead>
                     <tbody className='text-center'>
                         {
-                            userInfo?.map((user, i) => <tr
+                            info?.map((user, i) => <tr
                                 key={user._id}
                                 className="bg-base-200">
                                 <th>{i + 1}</th>
@@ -42,6 +48,9 @@ const MyCollege = () => {
                                     </div>
                                 </td>
                                 <td>{user.name}</td>
+                                <td>{user.birth}</td>
+                                <td>{user.address}</td>
+                                <td>{user.phone}</td>
                                 <td>{user.CollegeName}</td>
                                 <td>{user.email}</td>
                                 <td><Link to={`/morereviews/${user._id}`}>Review</Link > </td>

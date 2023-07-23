@@ -1,37 +1,78 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState } from 'react';
 import loginImg from '../../../src/assets/login_anime_up.png'
 import { Link, useNavigate } from 'react-router-dom';
 import { useForm } from 'react-hook-form';
 import { AuthContext } from '../../providers/AuthProvider';
 import Swal from 'sweetalert2';
+import SocialLogin from '../Shared/SocialLogin/SocialLogin';
 
 
 const SignUp = () => {
     const { register, handleSubmit, reset, formState: { errors } } = useForm();
+    // const [error, setError] =useState();
     const { createUser, updateUserProfile } = useContext(AuthContext);
     const navigate = useNavigate();
 
     const onSubmit = data => {
         // console.log(data);
         createUser(data.email, data.password)
-            .then(result => {
-                const loggedUser = result.user;
-                console.log(loggedUser);
-                updateUserProfile(data.name, data.photo)
-            })
-            .then(() => {
-                console.log('user profile info')
-                reset();
-                Swal.fire({
-                    position: 'top-end',
-                    icon: 'success',
-                    title: 'Registered successfully',
-                    showConfirmButton: false,
-                    timer: 1500
-                });
-                navigate('/');
-            })
-            .catch(error => console.log(error))
+        .then(res => {
+            const loggedUser = res.user;
+            console.log(loggedUser);
+            console.log(loggedUser);
+            updateUserProfile(data.name, data.photoURL)
+                .then(() => {
+                    // console.log('user profile updated');
+                    const saveStudent = { name: loggedUser.displayName, email: loggedUser.email }
+                    fetch('http://localhost:5000/loginUser', {
+                        method: 'POST',
+                        headers: {
+                            'content-type': 'application/json'
+                        },
+                        body: JSON.stringify(saveStudent)
+                    })
+                        .then(res => res.json())
+                        .then(data => {
+                            if (data.insertedId) {
+                                reset();
+                                Swal.fire({
+                                    position: 'top-end',
+                                    icon: 'success',
+                                    title: 'User created Successfully',
+                                    showConfirmButton: false,
+                                    timer: 1500
+                                });
+                                navigate('/')
+                            }
+                        })
+
+
+                })
+                .catch(error => {
+                    console.log(error)
+                })
+        })
+            // .then(result => {
+            //     const loggedUser = result.user;
+            //     console.log(loggedUser);
+            //     updateUserProfile(data.name, data.photo)
+            // })
+            // .then(() => {
+            //     console.log('user profile info')
+            //     reset();
+            //     Swal.fire({
+            //         position: 'top-end',
+            //         icon: 'success',
+            //         title: 'Registered successfully',
+            //         showConfirmButton: false,
+            //         timer: 1500
+            //     });
+            //     navigate('/');
+            // })
+            // .catch(error => console.log(error))
+
+
+
     };
 
     return (
@@ -90,7 +131,7 @@ const SignUp = () => {
                             </div>
                         </form>
                         <p className='text-center mb-5'><small>Already have an account? Click here  <Link to={'/login'}>login</Link></small></p>
-                        {/* <SocialLogin></SocialLogin> */}
+                        <SocialLogin></SocialLogin>
                     </div>
                 </div>
             </div>
