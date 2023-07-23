@@ -1,12 +1,15 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const AllCollegesCard = ({items}) => {
-    const { id, collegeName, admissionDates, collegeImage, events, researchHistory, sports } = items;
+    const navigate = useNavigate();
+    const { id, collegeName, admissionDates, collegeImage, events, researchHistory, sports,ranking } = items;
     return (
         <div className="card w-96 bg-base-100 shadow-xl">
         <figure><img className='img'  style={{borderRadius: '200px 0 200px 0 '}} src={collegeImage} alt="Shoes" /></figure>
         <div className="card-body">
             <h2 className="card-title">{collegeName}</h2>
+            <p><strong>Ranking: </strong> {ranking}</p>
             <p><strong>Last Date for Apply: </strong> {admissionDates}</p>
             <p><strong>Research History: </strong> {researchHistory}</p>
             <div className='grid sm:grid-cols-1 md:grid-cols-2 gap-5'>
@@ -25,7 +28,7 @@ const AllCollegesCard = ({items}) => {
                 </span>
             </div>
             {/* <div className="card-actions justify-end mt-5">
-                <button onClick={()=>navigate(`viewDetails/${id}`) } className="btn btn-primary text-white">View Details</button>
+                <button onClick={()=>navigate(`viewDetailsmore/${id}`) } className="btn btn-primary text-white">View Details</button>
             </div> */}
         </div>
     </div>

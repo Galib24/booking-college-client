@@ -5,6 +5,9 @@ import Main from "../LayOut/Main";
 import Home from "../Pages/Home/Home/Home";
 import ViewDetails from "../Pages/View Details/ViewDetails";
 import AllColleges from "../Pages/Home/AllColleges/AllColleges";
+import ViewDetailsMore from "../Pages/View Details/ViewDetailsMore";
+import Admission from "../Pages/Admission Page/Admission";
+import SubmitForm from "../Pages/Submit Form/SubmitForm";
 
 
   export const router = createBrowserRouter([
@@ -22,9 +25,30 @@ import AllColleges from "../Pages/Home/AllColleges/AllColleges";
           loader: ({params}) => fetch(`/collegeData.json`)
         },
         {
+          path: 'viewDetailsmore/:moredetailsId',
+          element: <ViewDetailsMore></ViewDetailsMore>,
+          loader: ({params}) => fetch(`/collegeData.json`)
+        },
+        {
           path: 'allcolleges',
-          element: <AllColleges></AllColleges>
-        }
+          element: <AllColleges></AllColleges>,
+        },
+       
       ]
     },
+    {
+      path: "/",
+      element: <Main></Main>,
+      children:[
+        {
+          path: 'admission',
+          element: <Admission></Admission>
+        },
+        {
+          path: 'sumbitform/:submitId',
+          element: <SubmitForm></SubmitForm>
+        }
+      ]
+      
+    }
   ]);
