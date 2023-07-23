@@ -3,6 +3,7 @@ import { FaCheckSquare } from 'react-icons/fa';
 import loginImg from '../../../src/assets/login_anime_up.png'
 import { Link } from 'react-router-dom';
 import { AuthContext } from '../../providers/AuthProvider';
+import Swal from 'sweetalert2';
 
 const Login = () => {
     const [show, setShow] = useState(false);
@@ -22,6 +23,13 @@ const Login = () => {
             .then(result => {
                 const user = result.user;
                 console.log(user);
+                Swal.fire({
+                    position: 'top-end',
+                    icon: 'success',
+                    title: 'Request Submit successfully',
+                    showConfirmButton: false,
+                    timer: 1500
+                })
             })
     }
     return (
