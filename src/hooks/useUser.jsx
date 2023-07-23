@@ -9,7 +9,7 @@ const useUser = () => {
         queryKey: ['userInfo', user?.email],
         queryFn: async () => {
             if (user?.email) {
-                const res = await fetch(`http://localhost:5000/userInfo?email=${user.email}`)
+                const res = await fetch(`https://booking-college-server.vercel.app/userInfo?email=${user.email}`)
                 return res.json();
             }
 

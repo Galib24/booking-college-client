@@ -17,7 +17,7 @@ const SocialLogin = () => {
             // setError(loggedUser);
             const saveStudent = { name: loggedUser.displayName, email: loggedUser.email }
 
-            fetch('http://localhost:5000/loginUser', {
+            fetch('https://booking-college-server.vercel.app/loginUser', {
                 method: 'POST',
                 headers: {
                     'content-type': 'application/json'

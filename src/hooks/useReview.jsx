@@ -4,7 +4,7 @@ const useReview = () => {
     const [allReview, SetReview] = useState();
     const [loading, setLoading] = useState(true);
     useEffect(()=>{
-        fetch('http://localhost:5000/reviews')
+        fetch('https://booking-college-server.vercel.app/reviews')
         .then(res => res.json())
         .then(data => {
             SetReview(data)

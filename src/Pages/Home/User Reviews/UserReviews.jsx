@@ -14,7 +14,7 @@ const UserReviews = () => {
         console.log(reviews);
 
          // send data to server
-         fetch('http://localhost:5000/reviews',{
+         fetch('https://booking-college-server.vercel.app/reviews',{
             method:'POST',
             headers: {
                 'content-type': 'application/json'

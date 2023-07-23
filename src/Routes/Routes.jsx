@@ -32,12 +32,12 @@ export const router = createBrowserRouter([
       {
         path: 'viewDetails/:detailsId',
         element: <ViewDetails></ViewDetails>,
-        loader: ({ params }) => fetch(`http://localhost:5000/collegeData`)
+        loader: ({ params }) => fetch(`https://booking-college-server.vercel.app/collegeData`)
       },
       {
         path: 'viewDetailsmore/:moredetailsId',
         element: <ViewDetailsMore></ViewDetailsMore>,
-        loader: ({ params }) => fetch(`http://localhost:5000/collegeData`)
+        loader: ({ params }) => fetch(`https://booking-college-server.vercel.app/collegeData`)
       },
       {
         path: 'allcolleges',
@@ -50,7 +50,7 @@ export const router = createBrowserRouter([
       {
         path: 'allDetails/:collegeID',
         element: <AllDetails></AllDetails>,
-        loader: ({ params }) => fetch(`http://localhost:5000/collegeData`)
+        loader: ({ params }) => fetch(`https://booking-college-server.vercel.app/collegeData`)
       },
       {
         path: 'morereviews/:reviewsId',

@@ -96,8 +96,6 @@ const Login = () => {
                                             show ? <span >Hide Password <FaCheckSquare></FaCheckSquare> </span> : <span>Show password <FaCheckSquare></FaCheckSquare> </span>
                                         }
                                     </small></p>
-                                <p className='text-center'><small>Forget Password? Then</small></p>
-                                <button onClick={handleResetPass} className='btn mt-5'>Reset Password</button>
                             </div>
                             {/* {
                                 error ? <p className='text-red-500'>Password or User Email not Matched</p> : ''

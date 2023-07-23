@@ -25,7 +25,7 @@ const SubmitForm = () => {
         console.log(formate);
 
         // send data to server
-        fetch('http://localhost:5000/userInfo',{
+        fetch('https://booking-college-server.vercel.app/userInfo',{
             method:'POST',
             headers: {
                 'content-type': 'application/json'

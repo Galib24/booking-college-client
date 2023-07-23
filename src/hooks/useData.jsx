@@ -4,7 +4,7 @@ const useData = () => {
     const [allData, SetAllData] = useState();
     const [loading, setLoading] = useState(true);
     useEffect(()=>{
-        fetch('http://localhost:5000/collegeData')
+        fetch('https://booking-college-server.vercel.app/collegeData')
         .then(res => res.json())
         .then(data => {
             SetAllData(data)

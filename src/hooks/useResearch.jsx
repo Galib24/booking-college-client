@@ -4,7 +4,7 @@ const useResearch = () => {
     const [allPaper, SetPaper] = useState();
     const [loading, setLoading] = useState(true);
     useEffect(()=>{
-        fetch('http://localhost:5000/research')
+        fetch('https://booking-college-server.vercel.app/research')
         .then(res => res.json())
         .then(data => {
             SetPaper(data)
