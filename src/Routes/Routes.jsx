@@ -14,12 +14,16 @@ import SignUp from "../Pages/Sign Up/SignUp";
 import PrivateRoute from "./PrivateRoute";
 import Review from "../Pages/review section/Review";
 import UserReviews from "../Pages/Home/User Reviews/UserReviews";
+import AllDetails from "../Pages/All Details/AllDetails";
+import ErrorPage from "../Pages/Error/ErrorPage";
+
 
 
 export const router = createBrowserRouter([
   {
     path: "/",
     element: <Main></Main>,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: '/',
@@ -28,12 +32,12 @@ export const router = createBrowserRouter([
       {
         path: 'viewDetails/:detailsId',
         element: <ViewDetails></ViewDetails>,
-        loader: ({ params }) => fetch(`/collegeData.json`)
+        loader: ({ params }) => fetch(`http://localhost:5000/collegeData`)
       },
       {
         path: 'viewDetailsmore/:moredetailsId',
         element: <ViewDetailsMore></ViewDetailsMore>,
-        loader: ({ params }) => fetch(`/collegeData.json`)
+        loader: ({ params }) => fetch(`http://localhost:5000/collegeData`)
       },
       {
         path: 'allcolleges',
@@ -41,7 +45,12 @@ export const router = createBrowserRouter([
       },
       {
         path: 'mycollege',
-        element: <PrivateRoute><MyCollege></MyCollege></PrivateRoute>
+        element: <MyCollege></MyCollege>
+      },
+      {
+        path: 'allDetails/:collegeID',
+        element: <AllDetails></AllDetails>,
+        loader: ({ params }) => fetch(`http://localhost:5000/collegeData`)
       },
       {
         path: 'morereviews/:reviewsId',
@@ -54,13 +63,13 @@ export const router = createBrowserRouter([
       {
         path: 'signup',
         element: <SignUp></SignUp>
-      }
-
+      },
     ]
   },
   {
     path: "/",
     element: <Main></Main>,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: 'admission',

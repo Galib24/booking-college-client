@@ -1,13 +1,20 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext, useRef, useState } from 'react';
 import { FaCheckSquare } from 'react-icons/fa';
 import loginImg from '../../../src/assets/login_anime_up.png'
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../providers/AuthProvider';
 import Swal from 'sweetalert2';
 import SocialLogin from '../Shared/SocialLogin/SocialLogin';
+import { getAuth, sendPasswordResetEmail } from 'firebase/auth';
+import { app } from '../../Firebase/firebase.config';
+
+
+
+const auth = getAuth(app);
 
 const Login = () => {
     const [show, setShow] = useState(false);
+    const emailRef = useRef()
     // const [error, setError] = useState('');
 
     // login function
@@ -40,6 +47,26 @@ const Login = () => {
                 });
                 navigate(from, { replace: true });
             })
+
+
+    }
+
+
+
+    const handleResetPass = e => {
+        const email = emailRef.current.value;
+        if (!email) {
+            alert('please provide your email address')
+            return;
+        }
+        sendPasswordResetEmail(auth, email)
+            .then(() => {
+                alert('please check your email')
+
+            })
+            .catch(error => {
+                console.log(error.message);
+            })
     }
     return (
         <>
@@ -55,19 +82,22 @@ const Login = () => {
                                 <label className="label">
                                     <span className="label-text">Email</span>
                                 </label>
-                                <input type="email" name='email' placeholder="email" className="input input-bordered" />
+                                <input type="email" ref={emailRef} name='email' placeholder="email" className="input input-bordered" />
                             </div>
                             <div className="form-control">
                                 <label className="label">
                                     <span className="label-text">Password</span>
                                 </label>
                                 <input type={show ? 'text' : 'password'} placeholder="password" name='password' className="input input-bordered" />
+
                                 <p onClick={() => setShow(!show)}>
                                     <small>
                                         {
                                             show ? <span >Hide Password <FaCheckSquare></FaCheckSquare> </span> : <span>Show password <FaCheckSquare></FaCheckSquare> </span>
                                         }
                                     </small></p>
+                                <p className='text-center'><small>Forget Password? Then</small></p>
+                                <button onClick={handleResetPass} className='btn mt-5'>Reset Password</button>
                             </div>
                             {/* {
                                 error ? <p className='text-red-500'>Password or User Email not Matched</p> : ''
@@ -77,6 +107,8 @@ const Login = () => {
                                 <input className="btn btn-primary" type="submit" value="Login" />
                             </div>
                         </form>
+                        <p className='text-center'><small>Forget Password? Then</small></p>
+                        <button onClick={handleResetPass} className='btn mt-5'>Reset Password</button>
                         <p className='text-center mb-5'><small>New Here? Create an account Click  <Link to={'/signup'}>here!</Link></small></p>
                         <SocialLogin></SocialLogin>
                     </div>

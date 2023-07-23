@@ -1,11 +1,12 @@
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { AuthContext } from '../../../providers/AuthProvider';
+import useData from '../../../hooks/useData';
 
 
 const Navbar = () => {
     const { user, logOut } = useContext(AuthContext);
-
+const [allData] = useData();
     const handleLogOut = () => {
         logOut()
             .then(() => { })

@@ -7,7 +7,7 @@ const ViewDetails = () => {
     const [top, setTop] = useState({})
     useEffect(() => {
         if (details) {
-            const detailsData = details.find(dt => dt.id === detailsId);
+            const detailsData = details.find(dt => dt._id === detailsId);
             setTop(detailsData)
         }
     }, []);

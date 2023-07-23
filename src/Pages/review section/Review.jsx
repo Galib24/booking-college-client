@@ -16,7 +16,7 @@ import { Navigation, Pagination, Mousewheel, Keyboard } from 'swiper/modules';
 
 const Review = () => {
     const [allReview] = useReview();
-    console.log(allReview);
+    // console.log(allReview);
 
     
     return (

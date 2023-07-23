@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import useUser from '../../../hooks/useUser';
 
 const MyCollege = () => {
+   
     // const [userInfo] = useInfo();
     const [info] =useUser();
     console.log(info?.length);
@@ -54,7 +55,7 @@ const MyCollege = () => {
                                 <td>{user.CollegeName}</td>
                                 <td>{user.email}</td>
                                 <td><Link to={`/morereviews/${user._id}`}>Review</Link > </td>
-                                <td><button>Details</button> </td>
+                                <td><Link to={`/allDetails/${user._id}`}>Details</Link> </td>
                             </tr>
                             )
                         }
